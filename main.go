@@ -84,8 +84,8 @@ func ExtractLinks(url string) ([]string, error) {
 }
 
 func main() {
-	startURL := "https://grabify.link/"
-	outputDir := "/home/nightcrawler/Documents/Git/babyboydaprince/GO/go-grab-that-site/grabify/"
+	startURL := "https://example.com"
+	outputDir := "downloaded_site"
 
 	fmt.Println("Starting download from:", startURL)
 	links, err := ExtractLinks(startURL)
